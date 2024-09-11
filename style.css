@@ -1,0 +1,561 @@
+#website {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px black soloid;
+  
+    #navbar {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  
+      gap: 700px;
+      padding: 20px 0px;
+  
+      #nav_menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        #nav_text {
+          color: gray;
+          font-size: 20px;
+        }
+        #icons {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          #photo {
+            border-radius: 50%;
+            height: 50px;
+            width: 50px;
+          }
+        }
+      }
+    }
+    #first {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border: 2px black solid;
+      padding: 100px 400px;
+      background: linear-gradient(rgba(0, 0, 255, 0), rgba(0, 0, 255, 0.205)),
+        url("./pic.jpg");
+  
+      h1 {
+        color: white;
+      }
+      pre {
+        font-size: 20px;
+        color: white;
+      }
+      #dual {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+  
+        #nav_menu1 {
+          gap: 50px;
+          padding: 20px;
+          background-color: black;
+        }
+        button {
+          background-color: skyblue;
+        }
+      }
+      #note {
+        padding: 20px;
+        font-size: 15px;
+        color: white;
+      }
+    }
+    #description {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      width: 1200px;
+      padding: 100px 200px;
+      padding: 50px 150px;
+      background-color: aliceblue;
+      #images {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        font-size: 20px;
+        img {
+          border: 2px skyblue solid;
+          border-radius: 90%;
+          font-size: 50px;
+        }
+      }
+    }
+    #about {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 0px 150px;
+      #conten {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        padding: 10px;
+  
+        #content0 {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: start;
+          font-size: 30px;
+        }
+        #content1 {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: start;
+          font-size: 25px;
+        }
+        #content2 {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: start;
+          font-size: 20px;
+          color: gray;
+        }
+      }
+      #pic {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  
+    #about1 {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      #data {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+      #data1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        text-align: center;
+        #data2 {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: start;
+          font-size: 30px;
+          padding: 10px 0px;
+        }
+        #data3 {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: start;
+          font-size: 25px;
+          padding: 0px 10px;
+        }
+        #data4 {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          font-size: 20px;
+          padding: 0px 200px;
+          color: gray;
+        }
+      }
+    }
+    #about2 {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  
+      #words {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        padding: 10px;
+  
+        padding: 0px 200px;
+        #word1 {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: start;
+          font-size: 30px;
+        }
+        #word2 {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: start;
+          font-size: 25px;
+        }
+        #word3 {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: start;
+          font-size: 20px;
+          color: gray;
+        }
+      }
+      #picture {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    #about3 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      #services {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        #headingbox {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+  
+          #heading {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            padding: 0px 0px;
+          }
+          #subheading {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 15x;
+            color: gray;
+            padding: 0px 0px;
+          }
+        }
+        #logobox {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          padding: 0px 20px;
+          #logos {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 0px 90px;
+          }
+        }
+      }
+    }
+    #about4 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 370px;
+      width: 1600px;
+      padding-top: 0px;
+      background-color: rgba(128, 128, 128, 0.11);
+      #clients {
+        #headingbox1 {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          #heading1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+          }
+          #subheading1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 15px;
+          }
+        }
+        #outerbox {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          padding: 80px;
+          gap: 13px;
+          #innerbox1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 7px;
+            gap: 10px;
+            background-color: white;
+            width: 400px;
+            #childbox1 {
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center;
+            }
+            #childbox2 {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              text-align: center;
+              width: 400px;
+              p {
+                text-align: start;
+                font-size: 15px;
+                color: gray;
+              }
+              #grandchild1 {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: start;
+                text-align: start;
+                gap: 10px;
+                #stars {
+                  display: flex;
+                  flex-direction: row;
+                  justify-content: center;
+                  align-items: start;
+                }
+                #envato {
+                  display: flex;
+                  flex-direction: row;
+                  justify-content: center;
+                  align-items: center;
+                  color: skyblue;
+                }
+              }
+            }
+          }
+          #innerbox2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 7px;
+            gap: 10px;
+            background-color: white;
+            #childbox3 {
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center;
+            }
+            #childbox4 {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              text-align: center;
+              width: 400px;
+              p {
+                text-align: start;
+                font-size: 16px;
+                color: gray;
+              }
+              #grandchild2 {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                gap: 10px;
+                #stars {
+                  display: flex;
+                  flex-direction: row;
+                  justify-content: center;
+                  align-items: start;
+                }
+                #pixfort {
+                  display: flex;
+                  flex-direction: row;
+                  justify-content: center;
+                  align-items: start;
+                  color: skyblue;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    #about5 {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      #features {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        #feature1 {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          font-size: 30px;
+        }
+        #feature2 {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          width: 350px;
+          color: gray;
+          button {
+            background-color: #00aeef;
+            width: 150px;
+            height: 30px;
+          }
+        }
+        #speed {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+    #about6 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 1800px;
+      height: 80px;
+      background-color: rgba(128, 128, 128, 0.103);
+      #copyrights {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        #copyright {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          padding: 20px 20px;
+          #copyright1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 50px;
+            color: gray;
+            b {
+              color: orangered;
+            }
+          }
+          #copyright2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            color: gray;
+          }
+        }
+        #xbox {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          background-color: rgba(128, 128, 128, 0.279);
+          width: 130px;
+          gap: 30px;
+          #xpost {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15%;
+            background-color: black;
+            #x{
+              display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            }
+  
+            #post {
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center;
+              color: white;
+            }
+          }
+          #likebox{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            background-color: #009ce3;
+            like{
+              display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            }
+            #likecontent{
+              display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            }
+          }
+        }
+      }
+    }
+  }
